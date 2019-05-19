@@ -15,6 +15,8 @@
 		0D0A54CB228DEC11000AC878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A54CA228DEC11000AC878 /* main.m */; };
 		0D0A54D5228DEC11000AC878 /* CatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A54D4228DEC11000AC878 /* CatsTests.m */; };
 		0D0A54E0228DEC11000AC878 /* CatsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A54DF228DEC11000AC878 /* CatsUITests.m */; };
+		0D0A54EF228DFE60000AC878 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A54EE228DFE60000AC878 /* Photo.m */; };
+		0D0A54F5228E0670000AC878 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A54F4228E0670000AC878 /* PhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0D0A54DB228DEC11000AC878 /* CatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0A54DF228DEC11000AC878 /* CatsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatsUITests.m; sourceTree = "<group>"; };
 		0D0A54E1228DEC11000AC878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0A54ED228DFE60000AC878 /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		0D0A54EE228DFE60000AC878 /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		0D0A54F3228E0670000AC878 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		0D0A54F4228E0670000AC878 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				0D0A54BC228DEC10000AC878 /* AppDelegate.m */,
 				0D0A54BE228DEC10000AC878 /* ViewController.h */,
 				0D0A54BF228DEC10000AC878 /* ViewController.m */,
+				0D0A54ED228DFE60000AC878 /* Photo.h */,
+				0D0A54EE228DFE60000AC878 /* Photo.m */,
+				0D0A54F3228E0670000AC878 /* PhotoCollectionViewCell.h */,
+				0D0A54F4228E0670000AC878 /* PhotoCollectionViewCell.m */,
 				0D0A54C1228DEC10000AC878 /* Main.storyboard */,
 				0D0A54C4228DEC11000AC878 /* Assets.xcassets */,
 				0D0A54C6228DEC11000AC878 /* LaunchScreen.storyboard */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0A54EF228DFE60000AC878 /* Photo.m in Sources */,
 				0D0A54C0228DEC10000AC878 /* ViewController.m in Sources */,
 				0D0A54CB228DEC11000AC878 /* main.m in Sources */,
+				0D0A54F5228E0670000AC878 /* PhotoCollectionViewCell.m in Sources */,
 				0D0A54BD228DEC10000AC878 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

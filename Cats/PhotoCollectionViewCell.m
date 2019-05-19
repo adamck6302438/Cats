@@ -10,4 +10,9 @@
 
 @implementation PhotoCollectionViewCell
 
+- (void)setImage:(UIImage *)image{
+    self.imageView.image = image;
+}
+
+
 @end
